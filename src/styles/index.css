@@ -2,3 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+#root {
+  @apply h-screen w-screen flex flex-col justify-center items-center bg-gradient-to-tl from-indigo-500 via-blue-500 to-cyan-500 text-white;
+}
