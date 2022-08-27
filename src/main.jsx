@@ -17,6 +17,46 @@ ReactDOM.createRoot(document.getElementById("root")).render(
             </Layout>
           }
         />
+        <Route
+          path="/about"
+          element={
+            <Layout>
+              <div>About</div>
+            </Layout>
+          }
+        />
+        <Route
+          path="/projects"
+          element={
+            <Layout>
+              <div>Projects</div>
+            </Layout>
+          }
+        />
+        <Route
+          path="/resume"
+          element={
+            <Layout>
+              <div>Resume</div>
+            </Layout>
+          }
+        />
+        <Route
+          path="/contact"
+          element={
+            <Layout>
+              <div>Contact</div>
+            </Layout>
+          }
+        />
+        <Route
+          path="/blog"
+          element={
+            <Layout>
+              <div>Blog</div>
+            </Layout>
+          }
+        />
         <Route path="*" element={<article>404</article>} />
       </Routes>
     </BrowserRouter>

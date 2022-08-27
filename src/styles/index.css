@@ -10,5 +10,9 @@
 }
 
 #root {
-  @apply h-screen w-screen flex flex-col justify-center items-center bg-gradient-to-tl from-indigo-500 via-blue-500 to-cyan-500 text-white;
+  @apply h-screen w-full flex flex-col justify-between;
+}
+
+body {
+  @apply h-full w-full flex bg-gradient-to-tl bg-no-repeat bg-fixed from-indigo-500 via-blue-500 to-cyan-500 text-white;
 }
